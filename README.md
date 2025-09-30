@@ -45,9 +45,6 @@ These people believe in open-source. If you are interested in improving the proj
 ### Platinum Sponsors
 <a href="https://soothingrelaxation.com/" target="_blank"><img width="250" src="https://521dimensions.com/img/open-source/amplitudejs/sponsors/soothing-relaxation.png"></a>
 
-<iframe src="https://opencollective.com/embed/YOURCOLLECTIVE /contribute/TIER_SLUG-TIER_ID" 
-style="width: 100%; min-height: 100vh;"></iframe>
-
 ### Silver Sponsors
 - [Monarch Air Group](https://monarchairgroup.com/)
 
