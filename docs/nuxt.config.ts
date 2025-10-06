@@ -6,7 +6,6 @@ export default defineNuxtConfig({
     modules: [
       '@nuxtjs/seo',
       '@nuxt/content',
-      '@nuxt/image',
       '@nuxtjs/tailwindcss',
       '@nuxt/fonts',
       '@vueuse/nuxt',
@@ -22,13 +21,6 @@ export default defineNuxtConfig({
     },
     app: {
       baseURL: '/open-source/amplitudejs',
-    },
-    image: {
-      ipx: {
-        modifiers: {
-          format: 'webp'
-        }
-      }
     },
     sitemap: {
       sitemaps: {
