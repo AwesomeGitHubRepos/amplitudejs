@@ -55,7 +55,7 @@
             </div>
         </header>
     </div>
-    <!-- <AppMobileMenu :isOpen="showMenu" @toggleMenu="toggleMenu" /> -->
+    <AppMobileMenu :isOpen="showMenu" @toggleMenu="toggleMenu" />
 </template>
 
 <script setup>

@@ -21,7 +21,7 @@
             <slot></slot>
         </div>
 
-        <!-- <Search/> -->
+        <Search/>
     </div>
 </template>
 
