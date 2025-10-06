@@ -20,6 +20,9 @@ export default defineNuxtConfig({
       indexable: process.env.NUXT_SITE_ENV === 'production',
       trailingSlash: true
     },
+    app: {
+      baseURL: process.env.NUXT_APP_BASE_URL,
+    },
     image: {
       ipx: {
         modifiers: {
