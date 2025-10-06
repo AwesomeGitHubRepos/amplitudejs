@@ -21,6 +21,7 @@ export default defineNuxtConfig({
     },
     app: {
       baseURL: '/open-source/amplitudejs',
+      buildAssetsDir: '/open-source/amplitudejs',
     },
     sitemap: {
       sitemaps: {
