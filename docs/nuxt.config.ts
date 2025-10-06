@@ -19,10 +19,6 @@ export default defineNuxtConfig({
       indexable: process.env.NUXT_SITE_ENV === 'production',
       trailingSlash: true
     },
-    app: {
-      baseURL: '/open-source/amplitudejs',
-      buildAssetsDir: '/open-source/amplitudejs',
-    },
     sitemap: {
       sitemaps: {
         pages: {
