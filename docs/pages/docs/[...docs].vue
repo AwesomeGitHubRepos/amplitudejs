@@ -9,7 +9,7 @@
                 :value="page"
                 class="max-w-screen-md prose prose-invert prose-p:mb-6 prose-p:font-normal prose-p:text-[#CECFD2] px-4 md:px-6" />
             
-            <div class="flex items-center justify-between px-4 gap-x-4 md:px-6">
+            <div v-if="surround" class="flex items-center justify-between px-4 gap-x-4 md:px-6">
                 <div class="flex flex-col items-start">
                     <NuxtLink v-if="surround[0]" :to="surround[0].path" class="text-base font-semibold transition text-white hover:text-zinc-300">
                         &larr; {{ surround[0].title }}
