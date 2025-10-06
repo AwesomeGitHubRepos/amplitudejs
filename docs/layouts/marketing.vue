@@ -14,14 +14,14 @@
         <ServerSideUp
             :fixed="true"/>
 
-        <AppHeader
-            :fixed="true"/>
+        <!-- <AppHeader
+            :fixed="true"/> -->
             
         <div class="w-full flex flex-col">
             <slot></slot>
         </div>
 
-        <Search/>
+        <!-- <Search/> -->
     </div>
 </template>
 
