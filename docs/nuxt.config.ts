@@ -21,7 +21,7 @@ export default defineNuxtConfig({
       trailingSlash: true
     },
     app: {
-      baseURL: process.env.NUXT_APP_BASE_URL,
+      baseURL: '/open-source/amplitudejs',
     },
     image: {
       ipx: {
