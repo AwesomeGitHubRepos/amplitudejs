@@ -38,7 +38,7 @@
                                         <ul class="text-sm text-gray-400">
                                             <ComboboxOption v-for="link in results" :key="link.id" :value="link" as="template" v-slot="{ active }">
                                                 <li :class="['flex cursor-default select-none items-center rounded-md px-3 py-2', active && 'bg-gray-800 text-white']">
-                                                    <NuxtLink :to="link.id" class="flex-auto flex items-center truncate text-sm">
+                                                    <NuxtLink :to="'/open-source/amplitudejs'+link.id" class="flex-auto flex items-center truncate text-sm">
                                                         <DocumentTextIcon :class="['h-5 w-5 flex-none mr-1', active ? 'text-white' : 'text-gray-500']" aria-hidden="true" />
                                                         <span class="w-[calc(100%-50px)] truncate" v-html="buildSearchResultTitle(link)"></span>
                                                     </NuxtLink>
@@ -236,7 +236,7 @@ const onSelect = (link) => {
         window.open(link.id, '_blank');
         return;
     }else{
-        navigateTo(link.id, {external: true});
+        navigateTo('/open-source/amplitudejs'+link.id, {external: true});
     }
 
     show.value = false;

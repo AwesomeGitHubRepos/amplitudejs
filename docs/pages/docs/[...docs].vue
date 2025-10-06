@@ -51,7 +51,7 @@ const { data: surround } = await useAsyncData('surround-' + route.path, () => {
 })
 
 defineOgImageComponent('Docs', {
-    title: page.value.title,
-    description: page.value.description,
+    title: page?.value.title,
+    description: page?.value.description,
 })
 </script>
