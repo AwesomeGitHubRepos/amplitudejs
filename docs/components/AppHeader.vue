@@ -3,7 +3,8 @@
         <header class="w-full mx-auto max-w-screen-xl px-4 lg:px-8 py-5 flex items-center justify-between">
             <nav class="flex items-center">
                 <NuxtLink to="/" class="mr-5">
-                    <img src="/images/logos/amplitudejs.svg" alt="AmplitudeJS" class="h-8"/>
+                    <!-- <img src="/images/logos/amplitudejs.svg" alt="AmplitudeJS" class="h-8"/> -->
+                     <img src="https://serversideup.net/logos/serversideup.svg" alt="AmplitudeJS" class="h-8"/>
                 </NuxtLink>
 
                 <NuxtLink to="/" class="hidden lg:block py-2 px-3 font-sans font-semibold text-[#CECFD2] hover:text-white">

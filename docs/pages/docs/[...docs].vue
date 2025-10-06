@@ -4,7 +4,8 @@
             :navigation="navigation"
             class="hidden md:block" />
         <div class="w-full pt-24 md:w-[calc(100%-256px)] lg:w-[calc(100%-448px)] md:pt-[144px] pb-10 h-screen no-scrollbar overflow-y-auto">
-            <ContentRenderer 
+            <ContentRenderer
+                v-if="page"
                 :value="page"
                 class="max-w-screen-md prose prose-invert prose-p:mb-6 prose-p:font-normal prose-p:text-[#CECFD2] px-4 md:px-6" />
             
