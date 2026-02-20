@@ -27,7 +27,11 @@
 </template>
 
 <script setup>
-import { ProjectSwitcherBar } from '@serversideup/project-switcher-bar'
+import { defineAsyncComponent } from 'vue'
+
+const ProjectSwitcherBar = defineAsyncComponent(() =>
+  import('@serversideup/project-switcher-bar').then(m => m.ProjectSwitcherBar)
+)
 
 useHead({
     htmlAttrs: {
