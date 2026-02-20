@@ -12,8 +12,7 @@
             <link rel="manifest" href="/site.webmanifest" />
         </Head>
 
-        <ServerSideUp
-            :fixed="true"/>
+        <ProjectSwitcherBar />
 
         <AppHeader
             :fixed="true"/>
@@ -25,6 +24,8 @@
 </template>
 
 <script setup>
+import { ProjectSwitcherBar } from '@serversideup/project-switcher-bar'
+
 useHead({
     htmlAttrs: {
         lang: 'en'

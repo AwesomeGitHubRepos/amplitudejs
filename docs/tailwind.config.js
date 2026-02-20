@@ -327,6 +327,7 @@ module.exports = {
         "./App.{js,ts,vue}",
         "./app.{js,ts,vue}",
         "./Error.{js,ts,vue}",
-        "./error.{js,ts,vue}"
+        "./error.{js,ts,vue}",
+        "./node_modules/@serversideup/project-switcher-bar/src/**/*.{vue,js,ts}"
     ],
 }

@@ -8,7 +8,6 @@ export default defineNuxtConfig({
       '@nuxt/content',
       '@nuxtjs/tailwindcss',
       '@nuxt/fonts',
-      '@vueuse/nuxt',
       '@nuxtjs/plausible',
       '@stefanobartoletti/nuxt-social-share'
     ],
