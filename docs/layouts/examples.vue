@@ -12,7 +12,9 @@
             <link rel="manifest" href="/site.webmanifest" />
         </Head>
 
-        <ProjectSwitcherBar />
+        <ClientOnly>
+            <ProjectSwitcherBar />
+        </ClientOnly>
 
         <AppHeader
             :fixed="true"/>
