@@ -12,12 +12,10 @@
             <link rel="manifest" href="/site.webmanifest" />
         </Head>
 
-        <ClientOnly>
+        <div class="sticky top-0 z-[9999999]">
             <ProjectSwitcherBar />
-        </ClientOnly>
-
-        <AppHeader
-            :fixed="true"/>
+            <AppHeader />
+        </div>
 
         <slot></slot>
 
@@ -26,11 +24,7 @@
 </template>
 
 <script setup>
-import { defineAsyncComponent } from 'vue'
-
-const ProjectSwitcherBar = defineAsyncComponent(() =>
-  import('@serversideup/project-switcher-bar').then(m => m.ProjectSwitcherBar)
-)
+import { ProjectSwitcherBar } from '@serversideup/project-switcher-bar'
 
 useHead({
     htmlAttrs: {
